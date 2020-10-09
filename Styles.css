@@ -1,0 +1,70 @@
+
+html {
+  
+  background: rgba(229,223,136,1);
+  background: -moz-radial-gradient(center, ellipse cover, rgba(229,223,136,1) 13%, rgba(195,173,162,1) 51%, rgba(178,149,174,1) 69%, rgba(163,126,186,1) 86%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(13%, rgba(229,223,136,1)), color-stop(51%, rgba(195,173,162,1)), color-stop(69%, rgba(178,149,174,1)), color-stop(86%, rgba(163,126,186,1)));
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(229,223,136,1) 13%, rgba(195,173,162,1) 51%, rgba(178,149,174,1) 69%, rgba(163,126,186,1) 86%);
+  background: -o-radial-gradient(center, ellipse cover, rgba(229,223,136,1) 13%, rgba(195,173,162,1) 51%, rgba(178,149,174,1) 69%, rgba(163,126,186,1) 86%);
+  background: -ms-radial-gradient(center, ellipse cover, rgba(229,223,136,1) 13%, rgba(195,173,162,1) 51%, rgba(178,149,174,1) 69%, rgba(163,126,186,1) 86%);
+  background: radial-gradient(ellipse at center, rgba(229,223,136,1) 13%, rgba(195,173,162,1) 51%, rgba(178,149,174,1) 69%, rgba(163,126,186,1) 86%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5df88', endColorstr='#a37eba', GradientType=1 );
+
+
+
+
+  font-family: 'Montserrat', sans-serif;
+}
+
+progress[value]::-webkit-progress-value {
+  background-color: #e5df88;
+  border-radius: 20px;
+}
+
+
+a{
+  text-decoration: none;
+  color: #000000;
+}
+
+a:hover{
+  color: #a37eba;
+  text-decoration: none;
+}
+.row1{
+  width: 40%;
+}
+
+.row2{
+  width: 60%;
+}
+
+
+#nombreedad > h1{
+margin: 0%;
+}
+
+#nombreedad > h2{
+  margin:0;
+  font-size: 16px;
+}
+
+.uk-card-body{
+border-radius: 40px;
+}
+
+#textoh4 >h4,#textoh4 >h5, #textoh4 > p{
+ margin: 0;
+}
+
+
+@media (max-width: 988px) {
+  .row1{
+    width: 100%;
+  }
+  
+  .row2{
+    width: 100%;
+  }
+
+}
